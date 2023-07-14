@@ -3,6 +3,8 @@ Module that calculates the experience of contributors of a file.
 """
 from pydriller import ModificationType
 from pydriller.metrics.process.process_metric import ProcessMetric
+from pydriller import ModificationType, Commit, RepositoryMining
+from typing import Dict
 
 
 class ContributorsExperience(ProcessMetric):
