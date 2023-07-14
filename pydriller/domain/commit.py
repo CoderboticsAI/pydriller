@@ -32,6 +32,7 @@ from git.objects import Commit as GitCommit
 from git.objects.base import IndexObject
 
 from pydriller.domain.developer import Developer
+from typing import Any, List
 
 logger = logging.getLogger(__name__)
 
